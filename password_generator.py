@@ -51,8 +51,5 @@ def greeting():
             print(password)
         elif will_contain_letters == "n" and will_contain_nums == "n" and will_contain_chars == "n":
             print("Bro... you want empty password?Its not really safe yk...")
-            import os
+    greeting()
 
-            # Путь к папке, в которой лежит текущий .py файл:
-            current_dir = os.path.dirname(os.path.abspath(__file__))
-#greeting()
